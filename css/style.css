@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(-45deg, green, #000);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  background: linear-gradient(-45deg, #262626, green);
+}
+header h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+header sub {
+  border-bottom: 2px dotted rgb(200, 200, 100);
+  border-top: 2px dotted rgb(200, 200, 100);
+  font-size: 1.5rem;
+}
+header span {
+  color: rgb(200, 200, 100);
+  /*linear-gradient(-45deg, blue, green);*/
+}
+
+.container {
+  border-radius: 7px;
+  background: url("../imgs/worldglow.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  height: 70vh;
+}
+.container #time {
+  color: red;
+}
+.container #score {
+  color: yellowgreen;
+}
+.container .time {
+  font-weight: 600;
+  font-size: 1.4rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: yellowgreen;
+  background: transparent;
+  padding: 7px;
+  border-bottom: 2px solid yellowgreen;
+  border-radius: 100%;
+}
+.container h2 {
+  font-family: fantasy;
+  font-size: 3rem;
+  color: rgb(200, 200, 100);
+}
+.container h3 {
+  font-size: 1.3rem;
+}
+.container p {
+  font-family: chiller;
+  font-size: 2rem;
+}
+.container input {
+  background: transparent;
+}
+.container input:focus {
+  background: transparent;
+  color: rgb(200, 200, 100);
+}
+.container h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background: transparent;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border: 2px solid yellowgreen;
+}
+.card h5 {
+  border-bottom: 2px solid rgb(100, 200, 50);
+}
+.fa-clock {
+  animation: myobject 5s infinite ease;
+  animation: myobject 5s infinite ease;
+  color: rgb(200, 200, 100);
+}
+/*rotate time*/
+@keyframes myobject {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
